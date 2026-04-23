@@ -3,7 +3,8 @@
 
 Связь с удаленным репозиторием (удаленным хранилищем репозиториев)
 
-git remote add origin https://github.com/vlad-lychagin-65/FirstGithub.git
+git remote add origin https://github.com/имя_пользователя/FirstGithub.git
+git remote add origin https://github.com/vlychagin/FirstGithub.git
 
 Первая запись/проталкивание на удаленный репозиторий
 git push -u origin master
@@ -34,8 +35,6 @@ git push
 Типичный алгоритм работы по отправке изменений
 git add .                       или одной командой git commit -a -m'имяКоммита'
 git commit -m'имя коммита'
-git push
-
 Клонирование удаленного репозитория на другой компьютер
 git clone ссылкаНаРепозиторий
 git clone https://github.com/vlychagin/FirstGithub.git
